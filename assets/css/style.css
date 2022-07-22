@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+a {
+  text-decoration: none;
+  color: #5da92f;
+}
+
+a:hover {
+  color: #9bd46a;
+}
+
+.bx {
+  vertical-align: middle;
+}
+
+.banner {
+  height: 400px;
+  background-image: linear-gradient(to top right, #07c8f9, #9bd46a);
+}
+
+.banner2 {
+  height: 400px;
+  background-image: linear-gradient(to top right, #D2C700, #60b6f1);
+}
+
+.mainFont {
+  font-family: 'Playfair Display', serif;
+}
+
+/*--------------------------------------------------------------
+# Navbar Section
+--------------------------------------------------------------*/
+.navbar-main {
+  height: 70px;
+  background-color:#432371;
+}
+
+.logo {
+  background: -webkit-linear-gradient(#5da92f, #9bd46a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+.logo-blue {
+  background: -webkit-linear-gradient(#0d41e1, #07c8f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.btn-get-started {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: block;
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(to top right, #5da92f, #9bd46a);
+}
+
+.btnShadow {
+  box-shadow: 0px 0px 10px green;
+}
+.btn-get-started:hover {
+  transition: 0.5s;
+  background-image: linear-gradient(to top left, #4694d3 , #3b60e4);
+  color: #fff;
+  box-shadow: 0px 0px 10px #3b60e4;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box h4 {
+font-size: 20px;
+font-weight: 700;
+margin: 5px 0 10px 60px;
+}
+.services .icon-box i {
+font-size: 48px;
+float: left;
+color: #5da92f;
+}
+.services .icon-box p {
+font-size: 15px;
+color: #959595;
+margin-left: 60px;
+}
+.services .image {
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 400px;
+}
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.up {
+  margin-top: -150px;
+}
+.pricing .box {
+padding: 20px;
+background: #ebf4f5;
+text-align: center;
+border-radius: 8px;
+position: relative;
+overflow: hidden;
+}
+.pricing .box h3 {
+  font-family: 'Playfair Display', serif;
+font-weight: 400;
+padding: 15px;
+margin-top: 15px;
+font-size: 25px;
+color: #151515;
+}
+.pricing .box h4 {
+  font-weight: 300;
+font-size: 25px;
+margin-bottom: 20px;
+color: #343a40;
+}
+.pricing .box h4 sup {
+font-size: 20px;
+top: -7px;
+left: -3px;
+}
+.pricing .box h4 span {
+color: #bababa;
+font-size: 16px;
+font-weight: 300;
+}
+.pricing .box ul {
+padding: 0;
+list-style: none;
+color: #151515;
+text-align: center;
+line-height: 20px;
+font-size: 14px;
+}
+.pricing .box ul li {
+padding-bottom: 16px;
+}
+.na {
+color: #ccc;
+text-decoration: line-through;
+}
+
+.pricing .recommended-badge {
+position: absolute;
+top: 5px;
+left: 50%;
+transform: translateX(-50%);
+z-index: 1;
+font-size: 12px;
+padding: 4px 25px 6px 25px;
+background: #432371;
+color: white;
+border-radius: 50px;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contactIcon {
+  color: #5da92f;
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq .faq-list {
+padding: 0;
+list-style: none;
+}
+.faq .faq-list li {
+border-bottom: 1px solid #eee;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+.faq .faq-list a {
+display: block;
+position: relative;
+font-family: #7cc576;
+font-size: 18px;
+line-height: 24px;
+font-weight: 400;
+padding-right: 25px;
+cursor: pointer;
+}
+.faq .faq-list i {
+font-size: 24px;
+position: absolute;
+right: 0;
+top: 0;
+}
+.faq .faq-list p {
+margin-bottom: 0;
+padding: 10px 0 0 0;
+}
+.faq .faq-list .icon-show {
+display: none;
+}
+.faq .faq-list a.collapsed {
+color: #343a40;
+}
+.faq .faq-list a.collapsed:hover {
+color: #7cc576;
+}
+.faq .faq-list a.collapsed .icon-show {
+display: inline-block;
+}
+.faq .faq-list a.collapsed .icon-close {
+display: none;
+}
