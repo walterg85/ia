@@ -36,6 +36,7 @@ a:hover {
 .navbar-main {
   height: 70px;
   background-color:#432371;
+  opacity: .9;
 }
 
 .logo {

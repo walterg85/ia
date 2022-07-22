@@ -69,7 +69,7 @@
 </head>
   <body>
     <!-- ======= Navbar ======= -->
-    <div class="container-fluid  navbar-main  sticky-top">
+    <div class="container-fluid navbar-main  sticky-top">
       <div class="container">
         <header class="">
           <div class="row flex-nowrap justify-content-between align-items-center">
@@ -80,18 +80,18 @@
               <a href="tel: 15209558534" class="text-light"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><br> <span class="fs-5">+1 520-955-8534</span></a>
             </div>
             <div class="col-3 col-lg-6">
-              <nav class="navbar navbar-expand-lg " aria-label="Offcanvas navbar large">
+              <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
                     <div class="offcanvas-header">
                       <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body d-flex justify-content-lg-end">
-                      <ul class="navbar-nav mb-2 mb-md-0">
+                      <ul class="navbar-nav mb-2 mb-md-0 fs-5">
                         <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
                         </li>
