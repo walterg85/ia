@@ -1,4 +1,4 @@
 <?php
     session_start();
-    $rootUrl = "http://localhost/intelatlas/";
+    $rootUrl = "http://localhost/ia/";
     
