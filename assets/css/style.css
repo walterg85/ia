@@ -18,11 +18,11 @@ a:hover {
 
 .banner {
   height: 400px;
-  background: linear-gradient(-45deg, #ee7752, #480ca8, #07c8f9, #9bd46a);
+  background: linear-gradient(-45deg, #ee7752, #480ca8, #432371, #9bd46a);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
-
+  
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
