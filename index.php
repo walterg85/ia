@@ -65,11 +65,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?a=8" rel="stylesheet">  
+    <link href="assets/css/style.css?a=1" rel="stylesheet">  
 </head>
   <body>
     <!-- ======= Navbar ======= -->
-    <div class="container-fluid navbar-main  sticky-top">
+    <div class="container-fluid navbar-main sticky-top">
       <div class="container">
         <header class="">
           <div class="row flex-nowrap justify-content-between align-items-center">
@@ -85,7 +85,7 @@
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                  <div class="offcanvas offcanvas-end text-bg-warning" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
                     <div class="offcanvas-header">
                       <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -120,7 +120,7 @@
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg pb-5">
       <div class="container-fluid bg-main pt-5 text-center banner">
-        <h1 class="display-5 text-light fw-bold animate__animated animate__bounceInDown">Ready, Set, Go Online!</h1>
+        <h1 class="display-5 text-light fw-bold animate__animated animate__bounceInDown">Ready, Set, Go Online<span class="text-warning">!</span></h1>
         <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Choose a website package to boost your brands online presence</p>        
       
       </div>

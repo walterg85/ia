@@ -18,7 +18,21 @@ a:hover {
 
 .banner {
   height: 400px;
-  background-image: linear-gradient(to top right, #07c8f9, #9bd46a);
+  background: linear-gradient(-45deg, #ee7752, #480ca8, #07c8f9, #9bd46a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .banner2 {
@@ -35,7 +49,7 @@ a:hover {
 --------------------------------------------------------------*/
 .navbar-main {
   height: 70px;
-  background-color:#432371;
+  background-color:black;
   opacity: .9;
 }
 
@@ -171,7 +185,7 @@ font-weight: 600;
 # Contact
 --------------------------------------------------------------*/
 .contactIcon {
-  color: #5da92f;
+  color: greenyellow;
 }
 
 /*--------------------------------------------------------------
