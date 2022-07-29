@@ -65,11 +65,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?a=1" rel="stylesheet">  
+    <link href="assets/css/style.css?a=3" rel="stylesheet">  
 </head>
   <body>
     <!-- ======= Navbar ======= -->
-    <div class="container-fluid navbar-main sticky-top">
+    <div class="container-fluid navbar-main sticky-top shadow-lg">
       <div class="container">
         <header class="">
           <div class="row flex-nowrap justify-content-between align-items-center">
@@ -93,7 +93,7 @@
                     <div class="offcanvas-body d-flex justify-content-lg-end">
                       <ul class="navbar-nav mb-2 mb-md-0 fs-5">
                         <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -119,8 +119,8 @@
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg pb-5">
-      <div class="container-fluid bg-main pt-5 text-center banner">
-        <h1 class="display-5 text-light fw-bold animate__animated animate__bounceInDown">Ready, Set, Go Online<span class="text-warning">!</span></h1>
+      <div class="container-fluid bg-main pt-5 text-center banner shadow">
+        <h1 class="display-5 text-light  animate__animated animate__bounceInDown">Ready, Set, Go Online<span class="fw-bold">!</span></h1>
         <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Choose a website package to boost your brands online presence</p>        
       
       </div>
@@ -148,7 +148,7 @@
           <div class="col-xl-3 col-md-6 mt-4 mt-md-0">
             <div class="box">              
               <h3>Web Design</br> Root</h3>
-              <h4><sup>$</sup>239 <s class="na lead">$398</s></h4>
+              <h4><sup>$</sup>258 <s class="na lead">$382</s></h4>
               <ul>
                 <li>Custom design</li>
                 <li>3 Pages</li>
@@ -165,10 +165,10 @@
           </div>
 
           <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
-            <div class="box">
-            <span class="recommended-badge"><i class='bx bxs-star'></i> Popular</span>
+            <div class="box shadow">
+              <span class="recommended-badge"><i class='bx bxs-star'></i> Popular</span>
               <h3 class="webLeaf">Web Design</br> Leaf</h3>
-              <h4><sup>$</sup>319 <s class="na lead">$498</s></h4>
+              <h4><sup>$</sup>348 <s class="na lead">$518</s></h4>
               <ul>
                 <li>Custom design</li>
                 <li>5 Pages</li>
@@ -187,7 +187,7 @@
           <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
             <div class="box">
               <h3 class="webFruits">Web Design</br> Fruits</h3>
-              <h4><sup>$</sup>420 <s class="na lead">$738</s></h4>
+              <h4><sup>$</sup>520 <s class="na lead">$858</s></h4>
               <ul>
                 <li>Custom design</li>
                 <li>10 Pages</li>
@@ -204,92 +204,7 @@
           </div>
         </div>
       </div>
-
-
-      <div class="container-fluid bg-main mt-5 pt-5 text-center banner2">
-        <h2 class="display-5 text-light mainFont">Ready, Set, Sell Online!</h2>
-        <p class="mb-4 fs-4 text-white-50">Start generating sales online 24/7 with your own web store</p>        
-      </div>
-      <div class="container up">
-        <div class="row">
-          <div class="col-xl-3 col-md-6">
-            <div class="box">
-              <h3>Store Seed</h3>
-              <h4><sup>$</sup>485 <s class="na lead">$600</s></h4>
-              <ul>
-                <li>Custom design</li>
-                <li>10 Products uploaded</li>
-                <li>Free Images</li>
-                <li>Installation & configuration</li>
-                <li>Lifetime bug fix</li>
-                <li>1 Language</li>
-                <li class="na">Client Account</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn5">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 mt-4 mt-md-0">
-            <div class="box">
-              <span class="recommended-badge"><i class='bx bxs-star'></i> Popular</span>
-              <h3>Store Root</h3>
-              <h4><sup>$</sup>685 <s class="na lead">$900</s></h4>
-              <ul>
-                <li>Custom design</li>
-                <li>25 Products uploaded</li>
-                <li>Free Images</li>
-                <li>Installation & configuration</li>
-                <li>Lifetime bug fix</li>
-                <li>1 Language</li>
-                <li>Client Account</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn6">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
-            <div class="box">
-              <h3 class="storeLeaf">Store Leaf</h3>
-              <h4><sup>$</sup>985 <s class="na lead">$1,500</s></h4>
-              <ul>
-                <li>Custom design</li>
-                <li>50 Products uploaded</li>
-                <li>Free Images</li>
-                <li>Installation & configuration</li>
-                <li>Lifetime bug fix</li>
-                <li>1 Language</li>
-                <li>Client Account</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn7">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
-            <div class="box">
-              <h3>Store Fruits</h3>
-              <h4><sup>$</sup>1485 <s class="na lead">$2,200</s></h4>
-              <ul>
-                <li>Custom design</li>
-                <li>50 Products uploaded</li>
-                <li>Free Images</li>
-                <li>Installation & configuration</li>
-                <li>Lifetime bug fix</li>
-                <li>2 Languages</li>
-                <li>Client Account</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn8">Get Started</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </section><!-- End Pricing Section -->
 
     <!-- ======= Services Section ======= -->

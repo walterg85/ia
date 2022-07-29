@@ -93,7 +93,7 @@ switch ($lang){
                     <div class="offcanvas-body d-flex justify-content-lg-end">
                       <ul class="navbar-nav mb-2 mb-md-0 fs-5">
                         <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $rootUrl; ?>tienda-en-linea">Tienda en Linea</a>
+                        <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Tienda en Linea</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#contact">Contáctenos</a>
@@ -102,7 +102,7 @@ switch ($lang){
                           <a class="nav-link text" href="https://www.bluehost.com/track/intelatlas/" target="_blank">Bluehost</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="<?php echo $rootUrl; ?>?lang=en" ><i class='bx bx-globe'></i> English</a>
+                          <a class="nav-link" href="<?php echo $rootUrl; ?>online-store/?lang=en" ><i class='bx bx-globe'></i> English</a>
                         </li>
                       </ul>
                     </div>
@@ -119,91 +119,91 @@ switch ($lang){
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg pb-5">
       <div class="container-fluid bg-main pt-5 text-center banner shadow">
-        <h1 class="display-5 text-light animate__animated animate__bounceInDown">Listos, en sus marcas, vamos al internet<span class="fw-bold">!</span></h1>
-        <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Escoge un paquete de diseño web para crecer tu marca en line</p>        
+        <h1 class="display-5 text-light animate__animated animate__bounceInDown">Listos, en sus marcas, a vender en internet<span class="fw-bold">!</span></h1>
+        <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Empieza a generar ventas 24/7 con tu propia tienda en internet</p>        
       
       </div>
       <div class="container up">
         <div class="row">
           <div class="col-xl-3 col-md-6">
             <div class="box">
-              <h3>Diseño Web</br> Semilla</h3>
-              <h4><sup>$</sup>148</h4>
+              <h3>Tienda Semilla</h3>
+              <h4><sup>$</sup>485 <s class="na lead">$600</s></h4>
               <ul>
-                <li class="customDesign">Diseño personalizado</li>
-                <li>1 Pagina</li>
+                <li>Diseño personalizado</li>
+                <li>10 Productos subidos</li>
                 <li>Imágenes Gratis</li>
                 <li>Instalación y configuración</li>
                 <li>Correcciones de por vida</li>
                 <li>1 Lenguaje</li>
-                <li class="na">Formulario de contacto</li>
+                <li class="na">Panel de cliente</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn">Iniciar</a>
+                <a href="#contact" class="btn-get-started packageBtn5">Iniciar</a>
               </div>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 mt-4 mt-md-0">
             <div class="box">
-              <h3>Diseño Web</br> Raíz</h3>
-              <h4><sup>$</sup>258 <s class="na lead">$382</s></h4>
-              <ul>
-                <li>Diseño personalizado</li>
-                <li>3 Paginas</li>
-                <li>Imágenes Gratis</li>
-                <li>Instalación y configuración</li>
-                <li>Correcciones de por vida</li>
-                <li>1 Lenguaje</li>
-                <li>Formulario de contacto</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn2">Iniciar</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
-            <div class="box shadow">
               <span class="recommended-badge"><i class='bx bxs-star'></i> Popular</span>
-              <h3 class="webLeaf">Diseño Web</br> Hoja</h3>
-              <h4><sup>$</sup>348 <s class="na lead">$518</s></h4>
+              <h3>Tienda Raíz</h3>
+              <h4><sup>$</sup>685 <s class="na lead">$900</s></h4>
               <ul>
                 <li>Diseño personalizado</li>
-                <li>5 Paginas</li>
+                <li>25 Productos subidos</li>
                 <li>Imágenes Gratis</li>
                 <li>Instalación y configuración</li>
                 <li>Correcciones de por vida</li>
                 <li>1 Lenguaje</li>
-                <li>Formulario de contacto</li>
+                <li>Panel de cliente</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn3">Iniciar</a>
+                <a href="#contact" class="btn-get-started packageBtn6">Iniciar</a>
               </div>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
             <div class="box">
-              <h3 class="webFruits">Diseño Web</br> Frutos</h3>
-              <h4><sup>$</sup>520 <s class="na lead">$858</s></h4>
+              <h3 class="storeLeaf">Tienda Hoja</h3>
+              <h4><sup>$</sup>985 <s class="na lead">$1,500</s></h4>
               <ul>
                 <li>Diseño personalizado</li>
-                <li>10 Paginas</li>
+                <li>50 Productos subidos</li>
+                <li>Imágenes Gratis</li>
+                <li>Instalación y configuración</li>
+                <li>Correcciones de por vida</li>
+                <li>1 Lenguaje</li>
+                <li>Panel de cliente</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#contact" class="btn-get-started packageBtn7">Iniciar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
+            <div class="box">
+              <h3>Tienda Frutos</h3>
+              <h4><sup>$</sup>1485 <s class="na lead">$2,200</s></h4>
+              <ul>
+                <li>Diseño personalizado</li>
+                <li>50 Productos subidos</li>
                 <li>Imágenes Gratis</li>
                 <li>Instalación y configuración</li>
                 <li>Correcciones de por vida</li>
                 <li>2 Lenguajes</li>
-                <li>Formulario de contacto</li>
+                <li>Panel de cliente</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn4">Iniciar</a>
+                <a href="#contact" class="btn-get-started packageBtn8">Iniciar</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    
+
     </section><!-- End Pricing Section -->
 
     <!-- ======= Services Section ======= -->
