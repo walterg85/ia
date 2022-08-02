@@ -74,7 +74,7 @@
         <header class="">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col-2">
-              <a class="logo fs-1 hero-logo" href="/">I<span class="logo-blue">A</span></a>
+              <a class="logo fs-1 hero-logo" href="<?php echo $rootUrl; ?>">I<span class="logo-blue">A</span></a>
             </div>
             <div class="col-7 col-lg-3">
               <a href="tel: 15209558534" class="text-light"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><br> <span class="fs-5">+1 520-955-8534</span></a>
