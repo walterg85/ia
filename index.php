@@ -65,61 +65,80 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?a=3" rel="stylesheet">  
+    <link href="assets/css/style.css?a=4" rel="stylesheet">  
 </head>
   <body>
-    <!-- ======= Navbar ======= -->
-    <div class="container-fluid navbar-main sticky-top shadow-lg">
-      <div class="container">
-        <header class="">
+  <div class="container">
+        <header class="blog-header lh-1 py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-2">
-              <a class="logo fs-1 hero-logo" href="<?php echo $rootUrl; ?>">I<span class="logo-blue">A</span></a>
+            <div class="col-4 pt-1">
+            <a href="tel: 15209558534" class="text-secondary"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><br> <span class="fs-5">+1 520-955-8534</span></a>
             </div>
-            <div class="col-7 col-lg-3">
-              <a href="tel: 15209558534" class="text-light"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><br> <span class="fs-5">+1 520-955-8534</span></a>
+            <div class="col-4 text-center">
+              <a class="blog-header-logo text-dark" href="#">Large</a>
             </div>
-            <div class="col-3 col-lg-6">
-              <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end text-bg-warning" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body d-flex justify-content-lg-end">
-                      <ul class="navbar-nav mb-2 mb-md-0 fs-5">
-                        <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text" href="https://www.bluehost.com/track/intelatlas/" target="_blank">Bluehost</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+              <a class="link-secondary" href="#" aria-label="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+              </a>
+              <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
             </div>
           </div>
-        </header>   
-      </div>   
-    </div>
+        </header>
+      </div>
 
-  <main id="main">   
+  <main id="main">
+      
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg pb-5">
       <div class="container-fluid bg-main pt-5 text-center banner shadow">
+        <!-- ======= Navbar ======= -->
+        <div class="container-fluid navbar-main sticky-top shadow-lg">
+          <div class="container">
+            <header class="">
+              <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-2">
+                  <a class="logo fs-1 hero-logo" href="<?php echo $rootUrl; ?>">I<span class="logo-blue">A</span></a>
+                </div>
+                <div class="col-7 col-lg-3">
+                  <a href="tel: 15209558534" class="text-light"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><br> <span class="fs-5">+1 520-955-8534</span></a>
+                </div>
+                <div class="col-3 col-lg-6">
+                  <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end text-bg-warning" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex justify-content-lg-end">
+                          <ul class="navbar-nav mb-2 mb-md-0 fs-5">
+                            <li class="nav-item">
+                            <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text" href="https://www.bluehost.com/track/intelatlas/" target="_blank">Bluehost</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </header>   
+          </div>   
+        </div> 
         <h1 class="display-5 text-light  animate__animated animate__bounceInDown">Ready, Set, Go Online<span class="fw-bold">!</span></h1>
         <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Choose a website package to boost your brands online presence</p>        
       
