@@ -65,44 +65,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?a=4" rel="stylesheet">  
+    <link href="assets/css/style.css?a=7" rel="stylesheet">  
 </head>
   <body>
-  <div class="container">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normal">Punny headline</h1>
+      <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+      <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+  
+    <div class="hero">
+      <div class="container">
         <header class="blog-header lh-1 py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-4 pt-1">
-            <a href="tel: 15209558534" class="text-secondary"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><br> <span class="fs-5">+1 520-955-8534</span></a>
-            </div>
-            <div class="col-4 text-center">
-              <a class="blog-header-logo text-dark" href="#">Large</a>
+            <div class="col-8 pt-1">
+              <a href="tel: 15209558534" class="text-secondary"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><span class="lead"> +1 520-955-8534</span></a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
-              <a class="link-secondary" href="#" aria-label="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
-              </a>
               <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
             </div>
           </div>
         </header>
       </div>
+    </div>
 
-  <main id="main">
-      
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg pb-5">
-      <div class="container-fluid bg-main pt-5 text-center banner shadow">
-        <!-- ======= Navbar ======= -->
-        <div class="container-fluid navbar-main sticky-top shadow-lg">
+
+
+
+    <div class="container">
+      <header class="blog-header lh-1 py-1">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-8 pt-1">
+          <a href="tel: 15209558534" class="text-secondary"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><span class="lead"> +1 520-955-8534</span></a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
+          </div>
+        </div>
+      </header>
+    </div>
+<!-- ======= Navbar ======= -->
+<div class="container-fluid navbar-main sticky-top shadow-lg">
           <div class="container">
             <header class="">
               <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-2">
                   <a class="logo fs-1 hero-logo" href="<?php echo $rootUrl; ?>">I<span class="logo-blue">A</span></a>
-                </div>
-                <div class="col-7 col-lg-3">
-                  <a href="tel: 15209558534" class="text-light"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><br> <span class="fs-5">+1 520-955-8534</span></a>
                 </div>
                 <div class="col-3 col-lg-6">
                   <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
@@ -139,9 +152,17 @@
             </header>   
           </div>   
         </div> 
+
+  <main id="main">
+      
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing section-bg pb-5">
+      <div class="container-fluid bg-main pt-5 text-center banner shadow">
+        
         <h1 class="display-5 text-light  animate__animated animate__bounceInDown">Ready, Set, Go Online<span class="fw-bold">!</span></h1>
         <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Choose a website package to boost your brands online presence</p>        
-      
+        <img class="img-fluid animate__animated animate__fadeInUpBig" src="assets/img/astronaut.png" alt="" style="max-height: 300px;">
       </div>
       <div class="container up">
         <div class="row">
