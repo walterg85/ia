@@ -26,8 +26,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Get a website that attracts clients to sell your products or services.">
-    <meta name="keywords" content="website, web design, logo, invoice, advertisement, marketing">
+    <meta name="description" content="Get a web design and logo design that attracts clients. Digital marketing strategy.">
+    <meta name="keywords" content="web design, logo design, digital marketing">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87709644-1"></script>
@@ -54,7 +54,7 @@
     src="https://www.facebook.com/tr?id=1673990619633186&ev=PageView&noscript=1"/></noscript>
     <!-- End Meta Pixel Code -->
 
-    <title>IntelAtlas.com - Website, logo and more</title> 
+    <title>Web Design, logo design and digital marketing strategy - IntelAtlas - Tucson, AZ</title> 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
