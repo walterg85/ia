@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?a=2" rel="stylesheet">  
+    <link href="assets/css/style.css?a=1" rel="stylesheet">  
 </head>
   <body>
 
@@ -126,19 +126,104 @@
 </div> 
 
   <main id="main">
-
-    <div class="container-fluid pt-3 banner shadow">      
-      <h1 class="fs-3 fw-bold text-secondary animate__animated animate__bounceInDown">Web Design, logo design and digital marketing</h1>
-      <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">Boost your digital marketing strategy with a custom web design and logo design</p>        
-      <img class="img-fluid animate__animated animate__fadeInUpBig mt-3" src="assets/img/web-design-examples-by-intelatlas.png" alt="">
-    </div>
       
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing section-bg pb-5">
+      <div class="container-fluid bg-main pt-3 banner shadow">
+        
+        <h1 class="fs-3 fw-bold text-secondary animate__animated animate__bounceInDown">Web Design, logo design and digital marketing</h1>
+        <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">Boost your digital marketing strategy with a custom web design and logo design</p>        
+        <img class="img-fluid animate__animated animate__fadeInUpBig" src="assets/img/web-design-examples-by-intelatlas.png" alt="">
+      </div>
+      <div class="container up">
+        <div class="row">
+          <div class="col-xl-3 col-md-6">
+            <div class="box">
+              <h3>Web Design</br> Seed</h3>
+              <h4><sup>$</sup>148</h4>
+              <ul>
+                <li class="customDesign">Custom design</li>
+                <li>1 Page</li>
+                <li>Free Images</li>
+                <li>Installation & configuration</li>
+                <li>Lifetime bug fix</li>
+                <li>1 Language</li>
+                <li class="na">Contact Form</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#contact" class="btn-get-started packageBtn">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-md-0">
+            <div class="box">              
+              <h3>Web Design</br> Root</h3>
+              <h4><sup>$</sup>258 <s class="na lead">$382</s></h4>
+              <ul>
+                <li>Custom design</li>
+                <li>3 Pages</li>
+                <li>Free Images</li>
+                <li>Installation & configuration</li>
+                <li>Lifetime bug fix</li>
+                <li>1 Language</li>
+                <li>Contact Form</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#contact" class="btn-get-started packageBtn2">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
+            <div class="box shadow">
+              <span class="recommended-badge"><i class='bx bxs-star'></i> Popular</span>
+              <h3 class="webLeaf">Web Design</br> Leaf</h3>
+              <h4><sup>$</sup>348 <s class="na lead">$518</s></h4>
+              <ul>
+                <li>Custom design</li>
+                <li>5 Pages</li>
+                <li>Free Images</li>
+                <li>Installation & configuration</li>
+                <li>Lifetime bug fix</li>
+                <li>1 Language</li>
+                <li>Contact Form</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#contact" class="btn-get-started packageBtn3">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
+            <div class="box">
+              <h3 class="webFruits">Web Design</br> Fruits</h3>
+              <h4><sup>$</sup>520 <s class="na lead">$858</s></h4>
+              <ul>
+                <li>Custom design</li>
+                <li>10 Pages</li>
+                <li>Free Images</li>
+                <li>Installation & configuration</li>
+                <li>Lifetime bug fix</li>
+                <li>2 Languages</li>
+                <li>Contact Form</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#contact" class="btn-get-started packageBtn4">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section><!-- End Pricing Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container mb-5">
 
-        <div class="section-title text-center mb-5">
+        <div class="section-title text-center mb-5 mt-5">
           <h2 class="display-5 text-dark mainFont">Our Top Web Services</h2>
           <p class="text-secondary">Get services that can help your business grow</p>
         </div>
@@ -147,7 +232,7 @@
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="icon-box mt-5 mt-lg-0">
               <i class="bx bx-images"></i>
-              <h4>Web Design</h4>
+              <h4>Website Design</h4>
               <p>Get a custom website design to showcase your products and services</p>
             </div>
             <div class="icon-box mt-5">
@@ -162,7 +247,7 @@
             </div>
             <div class="icon-box mt-5">
               <i class='bx bx-radar'></i>
-              <h4>Digital Marketing Strategy</h4>
+              <h4>Marketing</h4>
               <p>Promote your brand with our ads strategies on Google, Facebook and more</p>
             </div>
           </div>
@@ -190,7 +275,7 @@
                 <i class='bx bx-map-pin display-5 contactIcon' ></i>
                 <div>
                   <strong class="d-block">Visit Us</strong>
-                  <p>1690 N Stone Ave Suite 217<br>Tucson, AZ 85705</p>
+                  <p>1690 N Stone Ave<br>Tucson, AZ 85705</p>
                 </div>
               </a>
             </nav>
