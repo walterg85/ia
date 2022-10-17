@@ -73,7 +73,7 @@
       <header class="blog-header lh-1 py-1">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-8 pt-1">
-          <a href="tel: 15209558534" class="text-secondary"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><span class="d-none d-sm-block"> +1 520-955-8534</span></a>
+          <a href="tel: 15209558534" class="text-dark btn btn-success btn-sm"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><span class="d-none d-sm-block"> +1 520-955-8534</span></a>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center">
             <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
@@ -128,7 +128,7 @@
   <main id="main">
 
     <div class="container-fluid pt-3 banner shadow">      
-      <h1 class="fs-3 fw-bold text-secondary animate__animated animate__bounceInDown">Web Design, logo design and digital marketing</h1>
+      <h1 class="fs-3 fw-bold text-secondary animate__animated animate__bounceInDown text-uppercase">Web Design, logo design and digital marketing</h1>
       <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">Boost your digital marketing strategy with a custom web design and logo design</p>        
       <img class="img-fluid animate__animated animate__fadeInUpBig mt-3" src="assets/img/web-design-examples-by-intelatlas.png" alt="">
     </div>
