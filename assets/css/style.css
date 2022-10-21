@@ -97,7 +97,7 @@ a:hover {
 }
 .btn-get-started:hover {
   transition: 0.5s;
-  background-image: linear-gradient(to top left, #4694d3 , #3b60e4);
+  background-image: linear-gradient(to top left, #4694d3, #3b60e4);
   color: #fff;
   box-shadow: 0px 0px 10px #3b60e4;
 }
@@ -198,8 +198,12 @@ font-weight: 600;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.btn-call {
+  background-image: linear-gradient(to bottom left, #9bd46a, #5da92f);
+  border: none;
+}
 .contactIcon {
-  color: #07c8f9;
+  color: #4694d3;
 }
 
 /*--------------------------------------------------------------

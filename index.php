@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?a=2" rel="stylesheet">  
+    <link href="assets/css/style.css?a=3" rel="stylesheet">  
 </head>
   <body>
 
@@ -73,7 +73,7 @@
       <header class="blog-header lh-1 py-1">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-8 pt-1">
-          <a href="tel: 15209558534" class="text-dark btn btn-success btn-sm"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><span class="d-none d-sm-block"> +1 520-955-8534</span></a>
+          <a href="tel: 15209558534" class="text-secondary btn btn-sm btn-call"><i class='bx bx-phone-outgoing contactIcon'></i> Call Us<span class="d-none d-sm-block"> +1 520-955-8534</span></a>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center">
             <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
