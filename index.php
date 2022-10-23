@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?a=3" rel="stylesheet">  
+    <link href="assets/css/style.css?a=7" rel="stylesheet">  
 </head>
   <body>
 
@@ -73,9 +73,7 @@
       <header class="blog-header lh-1 py-1">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-8">
-            
-            
-            <a href="tel: 15209558534" class="d-none d-sm-block text-secondary btn btn-sm btn-call"><i class='bx bx-phone-outgoing contactIcon '></i> Call Us +1 520-955-8534</a>
+            <a href="tel: 15209558534" class="text-secondary btn btn-sm btn-call"><i class='bx bx-phone-outgoing contactIcon'></i> Call Us <span class="hidden-mobile">+1 520-955-8534</span></a>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center">
             <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
@@ -103,7 +101,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body d-flex justify-content-lg-end">
-                  <ul class="navbar-nav mb-2 mb-md-0 fs-5">
+                  <ul class="navbar-nav mb-2 mb-md-0  text-uppercase">
                     <li class="nav-item">
                     <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
                     </li>
@@ -129,20 +127,22 @@
 
   <main id="main">
 
-    <div class="container-fluid pt-3 banner shadow">      
-      <h1 class="fs-3 fw-bold text-secondary animate__animated animate__bounceInDown text-uppercase">Web Design, logo design and digital marketing</h1>
-      <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">Boost your digital marketing strategy with a custom web design and logo design</p>        
-      <img class="img-fluid animate__animated animate__fadeInUpBig mt-3" src="assets/img/web-design-examples-by-intelatlas.png" alt="">
+    <div class="container-fluid pt-3 banner shadow">  
+      <div class="container mt-3">           
+        <h1 class="text-secondary animate__animated animate__bounceInDown text-uppercase punchLine fw-bold">Web Design, logo design and digital marketing</h1>
+        <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">Boost your digital marketing strategy with a custom web design and logo design</p>        
+      </div>
     </div>
+    <img class="img-fluid animate__animated animate__fadeInUpBig banner-img center" src="assets/img/web-design-examples-by-intelatlas.png" alt="">
       
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-      <div class="container mb-5">
+      <div class="container my-5">
 
         <div class="section-title text-center mb-5">
-          <h2 class="display-5 text-dark mainFont">Top Web Services</h2>
-          <p class="text-secondary">Get services that can help your business grow</p>
+          <h2 class="display-5 fw-bold text-dark text-uppercase">Top Web Services</h2>
+          <p class="text-secondary">Get services that can help your business thrive</p>
         </div>
 
         <div class="row text-secondary">

@@ -34,11 +34,32 @@ a:hover {
 
 
 .banner {
-  height: 300px;
+  height: 275px;
   background: linear-gradient(-45deg, #0d41e1, #07c8f9, #9bd46a, #5da92f );
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  margin-bottom: 120px;
+}
+
+.punchLine {
+  font-size: 35px;
+}
+
+.banner-img {
+  min-width: 300px;
+  margin-top: -110px;
+}
+
+@media (max-width: 767px) {
+  .punchLine {
+    font-size: 22px;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
   
 @keyframes gradient {
@@ -52,12 +73,6 @@ a:hover {
     background-position: 0% 50%;
   }
 }
-
-.banner2 {
-  height: 400px;
-  background-image: linear-gradient(to top right, #D2C700, #60b6f1);
-}
-
 
 
 /*--------------------------------------------------------------
@@ -204,6 +219,12 @@ font-weight: 600;
 }
 .contactIcon {
   color: #4694d3;
+}
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
