@@ -102,7 +102,10 @@
                 <div class="offcanvas-body d-flex justify-content-lg-end">
                   <ul class="navbar-nav mb-2 mb-md-0  text-uppercase">
                     <li class="nav-item">
-                      <a class="nav-link" href="<?php echo $rootUrl; ?>tienda-en-linea">Tienda en Linea</a>
+                      <a class="nav-link" href="<?php echo $rootUrl; ?>es/tienda-en-linea">Tienda en Linea</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="<?php echo $rootUrl; ?>es/diseno-web">Diseño Web</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#contact">Contáctenos</a>
@@ -164,7 +167,7 @@
               <p>Promociona tu marca con nuestras estrategias de anuncios en Google, Facebook y más</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2 shadow" style='background-image: url("../assets/img/services.jpeg");'></div>
+          <div class="image col-lg-6 order-1 order-lg-2 shadow" style='background-image: url("../assets/img/web-services.webp");'></div>
         </div>
 
       </div>

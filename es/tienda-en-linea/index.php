@@ -1,4 +1,4 @@
-<?php include '../assets/php/header.php'; ?>
+<?php include '../../assets/php/header.php'; ?>
 <?php 
 	// Sets language if user deliberately sets it
   if (isset($_GET['lang'])) {
@@ -55,8 +55,8 @@
 
     <title>Diseño web, diseño de logotipo y estrategias de mercadotecnia digital - IntelAtlas - Tucson AZ</title> 
     <!-- Favicons -->
-    <link href="../assets/img/favicon.png" rel="icon">
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="../../assets/img/favicon.png" rel="icon">
+    <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Vendor CSS Files -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -64,7 +64,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css?a=7" rel="stylesheet">  
+    <link href="../../assets/css/style.css?a=7" rel="stylesheet">  
 </head>
   <body>
 
@@ -86,7 +86,7 @@
     <header class="">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col-2">
-          <a class="logo display-5 fw-normal hero-logo" href="<?php echo $rootUrl; ?>">I<span class="logo-blue">A</span></a>
+          <a class="logo display-5 fw-normal hero-logo" href="<?php echo $rootUrl; ?>es">I<span class="logo-blue">A</span></a>
         </div>
         <div class="col-3 col-lg-6">
           <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
@@ -102,7 +102,7 @@
                 <div class="offcanvas-body d-flex justify-content-lg-end">
                   <ul class="navbar-nav mb-2 mb-md-0  text-uppercase">
                     <li class="nav-item">
-                      <a class="nav-link" href="<?php echo $rootUrl; ?>tienda-en-linea">Tienda en Linea</a>
+                      <a class="nav-link" href="<?php echo $rootUrl; ?>es/diseno-web">Diseño Web</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#contact">Contáctenos</a>
@@ -237,7 +237,7 @@
             </nav>
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
-          <form action="../assets/php/contact.php" method="post" role="form" class="p-3 shadow rounded-3 bg-light">
+          <form action="../../assets/php/contact.php" method="post" role="form" class="p-3 shadow rounded-3 bg-light">
             <div class="form-floating my-3">
               <input type="text" name="name" class="form-control" placeholder="Your Name" required>
               <label for="floatingInput">Ingrese su Nombre</label>

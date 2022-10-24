@@ -106,6 +106,9 @@
                       <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link" href="<?php echo $rootUrl; ?>web-design">Web Design</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
@@ -165,7 +168,7 @@
               <p>Promote your brand with our ads strategies on Google, Facebook and more</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2 shadow" style='background-image: url("assets/img/services.jpeg");'></div>
+          <div class="image col-lg-6 order-1 order-lg-2 shadow" style='background-image: url("assets/img/web-services.webp");'></div>
         </div>
 
       </div>
