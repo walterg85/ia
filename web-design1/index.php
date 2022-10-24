@@ -1,4 +1,4 @@
-<?php include '../assets/php/header.php'; ?>
+<?php include 'assets/php/header.php'; ?>
 <?php 
 
 	// Sets language if user deliberately sets it
@@ -56,8 +56,8 @@
 
     <title>Web Design, logo design and digital marketing strategy - IntelAtlas - Tucson, AZ</title> 
     <!-- Favicons -->
-    <link href="../assets/img/favicon.png" rel="icon">
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Vendor CSS Files -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -65,15 +65,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css?a=7" rel="stylesheet">  
+    <link href="assets/css/style.css?a=1" rel="stylesheet">  
 </head>
   <body>
 
     <div class="container">
       <header class="blog-header lh-1 py-1">
         <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-8">
-            <a href="tel: 15209558534" class="text-secondary btn btn-sm btn-call"><i class='bx bx-phone-outgoing contactIcon'></i> Call Us <span class="hidden-mobile">+1 520-955-8534</span></a>
+          <div class="col-8 pt-1">
+          <a href="tel: 15209558534" class="text-secondary"><i class='bx bx-phone-outgoing fs-5 contactIcon'></i> <strong>Call Us</strong><span class="d-none d-sm-block"> +1 520-955-8534</span></a>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center">
             <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
@@ -95,21 +95,24 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+              <div class="offcanvas offcanvas-end text-bg-warning" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body d-flex justify-content-lg-end">
-                  <ul class="navbar-nav mb-2 mb-md-0 text-uppercase">
+                  <ul class="navbar-nav mb-2 mb-md-0 fs-5">
                     <li class="nav-item">
-                      <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
+                    <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text" href="https://www.bluehost.com/track/intelatlas/" target="_blank">Bluehost</a>
+                    <a class="nav-link text" href="https://www.bluehost.com/track/intelatlas/" target="_blank">Bluehost</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
                     </li>
                   </ul>
                 </div>
@@ -122,99 +125,137 @@
   </div>   
 </div> 
 
-  <main id="main">   
+  <main id="main">
+      
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg pb-5">
-      <div class="container-fluid bg-main pt-5 text-center banner shadow">
-        <h1 class="display-5 text-light  animate__animated animate__bounceInDown">Ready, Set, Sell Online<span class="fw-bold">!</span></h1>
-        <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Start generating sales online 24/7 with your own web store</p>        
-      
+      <div class="container-fluid bg-main pt-3 banner shadow">
+        
+        <h1 class="fs-3 fw-bold text-secondary animate__animated animate__bounceInDown">Web Design, logo design and digital marketing</h1>
+        <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">Boost your digital marketing strategy with a custom web design and logo design</p>        
+        <img class="img-fluid animate__animated animate__fadeInUpBig" src="assets/img/web-design-examples-by-intelatlas.png" alt="">
       </div>
       <div class="container up">
         <div class="row">
           <div class="col-xl-3 col-md-6">
             <div class="box">
-              <h3>Store Seed</h3>
-              <h4><sup>$</sup>485 <s class="na lead">$600</s></h4>
+              <h3>Web Design</br> Seed</h3>
+              <h4><sup>$</sup>148</h4>
               <ul>
-                <li>Custom design</li>
-                <li>10 Products uploaded</li>
+                <li class="customDesign">Custom design</li>
+                <li>1 Page</li>
                 <li>Free Images</li>
                 <li>Installation & configuration</li>
                 <li>Lifetime bug fix</li>
                 <li>1 Language</li>
-                <li class="na">Client Account</li>
+                <li class="na">Contact Form</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn5">Get Started</a>
+                <a href="#contact" class="btn-get-started packageBtn">Get Started</a>
               </div>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 mt-4 mt-md-0">
-            <div class="box">
+            <div class="box">              
+              <h3>Web Design</br> Root</h3>
+              <h4><sup>$</sup>258 <s class="na lead">$382</s></h4>
+              <ul>
+                <li>Custom design</li>
+                <li>3 Pages</li>
+                <li>Free Images</li>
+                <li>Installation & configuration</li>
+                <li>Lifetime bug fix</li>
+                <li>1 Language</li>
+                <li>Contact Form</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#contact" class="btn-get-started packageBtn2">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
+            <div class="box shadow">
               <span class="recommended-badge"><i class='bx bxs-star'></i> Popular</span>
-              <h3>Store Root</h3>
-              <h4><sup>$</sup>685 <s class="na lead">$900</s></h4>
+              <h3 class="webLeaf">Web Design</br> Leaf</h3>
+              <h4><sup>$</sup>348 <s class="na lead">$518</s></h4>
               <ul>
                 <li>Custom design</li>
-                <li>25 Products uploaded</li>
+                <li>5 Pages</li>
                 <li>Free Images</li>
                 <li>Installation & configuration</li>
                 <li>Lifetime bug fix</li>
                 <li>1 Language</li>
-                <li>Client Account</li>
+                <li>Contact Form</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn6">Get Started</a>
+                <a href="#contact" class="btn-get-started packageBtn3">Get Started</a>
               </div>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
             <div class="box">
-              <h3 class="storeLeaf">Store Leaf</h3>
-              <h4><sup>$</sup>985 <s class="na lead">$1,500</s></h4>
+              <h3 class="webFruits">Web Design</br> Fruits</h3>
+              <h4><sup>$</sup>520 <s class="na lead">$858</s></h4>
               <ul>
                 <li>Custom design</li>
-                <li>50 Products uploaded</li>
-                <li>Free Images</li>
-                <li>Installation & configuration</li>
-                <li>Lifetime bug fix</li>
-                <li>1 Language</li>
-                <li>Client Account</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn7">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 mt-4 mt-xl-0">
-            <div class="box">
-              <h3>Store Fruits</h3>
-              <h4><sup>$</sup>1485 <s class="na lead">$2,200</s></h4>
-              <ul>
-                <li>Custom design</li>
-                <li>50 Products uploaded</li>
+                <li>10 Pages</li>
                 <li>Free Images</li>
                 <li>Installation & configuration</li>
                 <li>Lifetime bug fix</li>
                 <li>2 Languages</li>
-                <li>Client Account</li>
+                <li>Contact Form</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-get-started packageBtn8">Get Started</a>
+                <a href="#contact" class="btn-get-started packageBtn4">Get Started</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      
       
     </section><!-- End Pricing Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container mb-5">
+
+        <div class="section-title text-center mb-5 mt-5">
+          <h2 class="display-5 text-dark mainFont">Our Top Web Services</h2>
+          <p class="text-secondary">Get services that can help your business grow</p>
+        </div>
+
+        <div class="row text-secondary">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-images"></i>
+              <h4>Website Design</h4>
+              <p>Get a custom website design to showcase your products and services</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-brush"></i>
+              <h4>Logo Design</h4>
+              <p>Get 3 logo designs concepts and unlimited revision for only $95</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class='bx bx-shopping-bag'></i>
+              <h4>Online Store</h4>
+              <p>Sell online everywhere from your own website</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class='bx bx-radar'></i>
+              <h4>Marketing</h4>
+              <p>Promote your brand with our ads strategies on Google, Facebook and more</p>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2 shadow" style='background-image: url("assets/img/services.jpeg");'></div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
     <div id="contact" class="container col-xl-10 col-xxl-8 px-4 py-5">
@@ -261,6 +302,55 @@
         </div>
       </div>
     </div>
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq bg-light py-3">
+      <div class="container">
+
+        <div class="section-title my-5">
+          <h2 id="faqTittle" class="text-center">FREQUENTLY ASKED QUESTIONS</h2>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">What do I need to get a website? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                To have a website online fully working you need 3 things: a domain name, hosting and a web designer.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">How soon can I be online? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                For regular websites, you can expect to be online within 2-4 days. Online store 5-10 days.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">What if I don't have any images yet? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Don't worry, we have a great team of designers and developers who can help you get images that matches you business.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Do you build custom sites or use templates? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                We can build custom sites and use templates. Templates are great because they are already built and more stable. Custom design are great because you can give your website the look and feel you want.
+              </p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
 
   </main><!-- End #main -->
 
@@ -275,7 +365,6 @@
             <a href="https://www.facebook.com/intelatlas" target="_blank" class="facebook display-3"><i class="bx bxl-facebook"></i></a>
             <a href="https://www.linkedin.com/company/intelatlas" target="_blank" class="twitter display-3"><i class='bx bxl-linkedin-square'></i></a>
             <a href="https://goo.gl/maps/Z2GWwAx9HPUjkBgM7" target="_blank" class="twitter display-3"><i class='bx bxl-google'></i></a>
-            <a href="https://www.yelp.com/biz/intelatlas-tucson" target="_blank" class="twitter display-3"><i class='bx bxl-yelp'></i></a>
           </div>
           <p class="mt-5 mb-0"><script>document.write(new Date().getFullYear())</script> &copy; <strong><span>IntelAtlas</span></strong></p>
         </div>
