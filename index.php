@@ -95,24 +95,21 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="offcanvas offcanvas-end text-bg-warning" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body d-flex justify-content-lg-end">
-                  <ul class="navbar-nav mb-2 mb-md-0  text-uppercase">
+                  <ul class="navbar-nav mb-2 mb-md-0 text-uppercase">
                     <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
+                      <a class="nav-link" href="<?php echo $rootUrl; ?>online-store">Online Store</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text" href="https://www.bluehost.com/track/intelatlas/" target="_blank">Bluehost</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $rootUrl; ?>es/?lang=es" ><i class='bx bx-globe'></i> Español</a>
+                      <a class="nav-link text" href="https://www.bluehost.com/track/intelatlas/" target="_blank">Bluehost</a>
                     </li>
                   </ul>
                 </div>
@@ -141,8 +138,8 @@
       <div class="container my-5">
 
         <div class="section-title text-center mb-5">
-          <h2 class="display-5 fw-bold text-dark text-uppercase">Top Web Services</h2>
-          <p class="text-secondary">Get services that can help your business thrive</p>
+          <h2 class="fw-bold text-secondary text-uppercase">Top Web Services</h2>
+          <p>Get services that can help your business thrive</p>
         </div>
 
         <div class="row text-secondary">
@@ -251,16 +248,16 @@
             <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">What if I don't have any images yet? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq3" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Don't worry, we have a great team of designers and developers who can help you get images that matches you business.
+                Don't worry, we have a great team of graphic designers and developers who can help you get images that matches you business.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Do you build custom sites or use templates? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Do you build custom designs from scratch or use templates? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq4" class="collapse" data-bs-parent=".faq-list">
               <p>
-                We can build custom sites and use templates. Templates are great because they are already built and more stable. Custom design are great because you can give your website the look and feel you want.
+                We build custom web sites from scratch and also use templates. Templates are great because they are already built and more stable. Custom design are great because you can give your website the look and feel you want.
               </p>
             </div>
           </li>
@@ -282,6 +279,7 @@
             <a href="https://www.facebook.com/intelatlas" target="_blank" class="facebook display-3"><i class="bx bxl-facebook"></i></a>
             <a href="https://www.linkedin.com/company/intelatlas" target="_blank" class="twitter display-3"><i class='bx bxl-linkedin-square'></i></a>
             <a href="https://goo.gl/maps/Z2GWwAx9HPUjkBgM7" target="_blank" class="twitter display-3"><i class='bx bxl-google'></i></a>
+            <a href="https://www.yelp.com/biz/intelatlas-tucson" target="_blank" class="twitter display-3"><i class='bx bxl-yelp'></i></a>
           </div>
           <p class="mt-5 mb-0"><script>document.write(new Date().getFullYear())</script> &copy; <strong><span>IntelAtlas</span></strong></p>
         </div>
