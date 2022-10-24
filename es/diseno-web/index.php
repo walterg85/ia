@@ -24,8 +24,8 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Obtén un sitio Web con un diseño llamativo para vender tus servicios o productos">
-    <meta name="keywords" content="sitio web, pagina web, diseño web logotipo, recibos, facturas, anuncios, mercadotecnia">
+    <meta name="description" content="Obtén un diseño web personalizado. Tu sitio web o pagina web debe lucir bien">
+    <meta name="keywords" content="diseño web, sitio web, pagina web">
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -53,7 +53,7 @@
     src="https://www.facebook.com/tr?id=1673990619633186&ev=PageView&noscript=1"/></noscript>
     <!-- End Meta Pixel Code -->
 
-    <title>Diseño web, diseño de logotipo y estrategias de mercadotecnia digital - IntelAtlas - Tucson AZ</title> 
+    <title>Diseño web personalizado - IntelAtlas - Tucson AZ</title> 
     <!-- Favicons -->
     <link href="../../assets/img/favicon.png" rel="icon">
     <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -64,7 +64,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Template Main CSS File -->
-    <link href="../../assets/css/style.css?a=7" rel="stylesheet">  
+    <link href="../../assets/css/style.css?a=8" rel="stylesheet">  
 </head>
   <body>
 
@@ -126,8 +126,8 @@
 <!-- ======= Pricing Section ======= -->
 <section id="pricing" class="pricing section-bg pb-5">
       <div class="container-fluid bg-main pt-5 text-center banner shadow">
-        <h1 class="display-5 text-light animate__animated animate__bounceInDown">Listos, en sus marcas, a vender en internet<span class="fw-bold">!</span></h1>
-        <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Empieza a generar ventas 24/7 con tu propia tienda en internet</p>        
+        <h1 class="display-5 text-light animate__animated animate__bounceInDown">Diseño Web Personalizado</span></h1>
+        <p class="text-white-50 fs-4 animate__animated animate__delay-1s animate__fadeInUpBig">Mejora tu imagen en internet con un diseño web personalizado</p>        
       
       </div>
       <div class="container up">

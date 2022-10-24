@@ -24,8 +24,8 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Obtén un sitio Web con un diseño llamativo para vender tus servicios o productos">
-    <meta name="keywords" content="sitio web, pagina web, diseño web logotipo, recibos, facturas, anuncios, mercadotecnia">
+    <meta name="description" content="Obtén un logo o diseño web personalizado para publicidad de calidad y estrategias de mercadeo ">
+    <meta name="keywords" content="diseño web, logo, publicidad, mercadeo">
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -53,7 +53,7 @@
     src="https://www.facebook.com/tr?id=1673990619633186&ev=PageView&noscript=1"/></noscript>
     <!-- End Meta Pixel Code -->
 
-    <title>Diseño web, diseño de logotipo y estrategias de mercadotecnia digital - IntelAtlas - Tucson AZ</title> 
+    <title>Diseño web, logo, publicidad y mercadeo digital - IntelAtlas - Tucson AZ</title> 
     <!-- Favicons -->
     <link href="../assets/img/favicon.png" rel="icon">
     <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -128,8 +128,12 @@
 
     <div class="container-fluid pt-3 banner shadow">  
       <div class="container mt-3">           
-        <h1 class="text-secondary animate__animated animate__bounceInDown text-uppercase punchLine fw-bold">Diseño web, diseño de logotipo y mercadotecnia digital</h1>
-        <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">Impulsa tu estrategia de mercadotecnia digital con un diseño web y logo personalizado</p>        
+        <h1 class="text-secondary animate__animated animate__bounceInDown text-uppercase punchLine">
+          Diseño web, logo, publicidad y mercadeo
+        </h1>
+        <p class="fs-6 animate__animated animate__delay-1s animate__fadeInUpBig text-secondary">
+          Mejora tu publicidad digital con un logo y un diseño web personalizado
+        </p>        
       </div>
     </div>
     <img class="img-fluid animate__animated animate__fadeInUpBig banner-img center" src="../assets/img/web-design-examples-by-intelatlas.png" alt="">
@@ -141,30 +145,30 @@
 
         <div class="section-title text-center mb-5">
           <h2 class="fw-bold text-secondary text-uppercase">Servicios Web Populares</h2>
-          <p>Obtén servicios que ayuden prosperar el negocio</p>
+          <p>Obtén servicios que ayuden a crecer tu negocio</p>
         </div>
 
         <div class="row text-secondary">
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="icon-box mt-5 mt-lg-0">
               <i class="bx bx-images"></i>
-              <h4>Diseño de Sito Web</h4>
-              <p>Obtén un diseño personalizado para exhibir productos y servicios</p>
+              <h4>Diseño Web Personalizado</h4>
+              <p>Dale mayor publicidad a tus productos y servicios con un diseño web</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-brush"></i>
-              <h4>Diseño de Logotipo</h4>
-              <p>Obtén 3 conceptos de diseño y revisión ilimitada por solo $95</p>
+              <h4>Diseño de Logo</h4>
+              <p>Obtén 3 conceptos de tu logo y revisión ilimitada por solo $95</p>
             </div>
             <div class="icon-box mt-5">
               <i class='bx bx-shopping-bag'></i>
               <h4>Tienda en Línea</h4>
-              <p>Vende en todas partes desde tu propio sitio web</p>
+              <p>Vende las 24 horas con tu sitio web</p>
             </div>
             <div class="icon-box mt-5">
               <i class='bx bx-radar'></i>
-              <h4>Mercadotecnia</h4>
-              <p>Promociona tu marca con nuestras estrategias de anuncios en Google, Facebook y más</p>
+              <h4>publicidad y mercadeo</h4>
+              <p>Obtén mas clientes con nuestras estrategias de publicidad y mercadeo</p>
             </div>
           </div>
           <div class="image col-lg-6 order-1 order-lg-2 shadow" style='background-image: url("../assets/img/web-services.webp");'></div>
