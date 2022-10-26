@@ -27,7 +27,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Get a web design and logo design that attracts clients. Digital marketing strategy.">
-    <meta name="keywords" content="web design, logo design, digital marketing">
+    <meta name="keywords" content="web design company, web designer, web design company, digital marketing agency, logo design">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87709644-1"></script>
